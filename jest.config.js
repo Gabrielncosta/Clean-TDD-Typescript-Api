@@ -1,12 +1,12 @@
 module.exports = {
   roots: ['<rootDir>/src'],
   collectCoverageFrom: ['<rootDir>/src/**/*.ts'],
-  coverageDirectory: "coverage",
-  coverageProvider: "v8",
-  testEnvironment: "node",
+  coverageDirectory: 'coverage',
+  coverageProvider: 'v8',
+  testEnvironment: 'node',
   transform: {
     '.+\\.ts$': 'ts-jest'
-  },
+  }
 
   // An array of regexp pattern strings that are matched against all source file paths, matched files will skip transformation
   // transformIgnorePatterns: [
@@ -24,4 +24,4 @@ module.exports = {
 
   // Whether to use watchman for file crawling
   // watchman: true,
-};
+}
